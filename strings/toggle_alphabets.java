@@ -1,3 +1,4 @@
+package strings;
 import java.util.Scanner;
 
 public class toggle_alphabets {
@@ -17,6 +18,7 @@ public class toggle_alphabets {
             }
             sb.setCharAt(i, c);
         }
+        str = sb.toString();
         System.out.println(str);
     }
 }

@@ -1,7 +1,9 @@
-public class string_buffer {
+package strings;
+public class string_builder {
     public static void main(String[] args) {
+        
         String str = "hello";
-        StringBuffer sb = new StringBuffer("hello");
+        StringBuilder sb = new StringBuilder("hello");
 
         // add new string
         sb.append(" world");
@@ -34,16 +36,16 @@ public class string_buffer {
         sb.replace(4, 7, "abcdef");
 
         // equals function
-        sb = new StringBuffer("str");
-        StringBuffer sb1 = new StringBuffer("str");
+        sb = new StringBuilder("str");
+        StringBuilder sb1 = new StringBuilder("str");
 
         System.out.println(sb.equals(sb1)); // checks reference
 
-        // convert string Buffer to string
+        // convert string builder to string
         sb.toString();
 
-        // convert string to string Buffer
+        // convert string to string builder
         String str1 = "abc";
-        sb = new StringBuffer(str1);
+        sb = new StringBuilder(str1);
     }
 }

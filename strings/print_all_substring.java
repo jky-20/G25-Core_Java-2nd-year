@@ -1,3 +1,4 @@
+package strings;
 import java.util.Scanner;
 
 public class print_all_substring {

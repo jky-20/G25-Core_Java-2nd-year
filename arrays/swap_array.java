@@ -1,3 +1,4 @@
+package arrays;
 public class swap_array {
     public static void main(String[] args) {
         

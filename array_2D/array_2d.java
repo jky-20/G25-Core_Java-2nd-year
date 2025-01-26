@@ -1,3 +1,4 @@
+package array_2D;
 import java.util.Scanner;
 
 public class array_2d {

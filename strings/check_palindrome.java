@@ -1,3 +1,4 @@
+package strings;
 import java.util.Scanner;
 
 public class check_palindrome {

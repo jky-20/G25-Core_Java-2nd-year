@@ -1,3 +1,4 @@
+package loops;
 import java.util.Scanner;
 
 public class loop {
@@ -15,5 +16,16 @@ public class loop {
             System.out.println(i);
 
         }
+
+        int i=0;
+        while (i < 10) {
+            System.out.println(i);
+        }
+
+        int a = 10;
+        do{
+            System.out.println(a); // still executes
+        }
+        while(a < 5);
     }
 }
