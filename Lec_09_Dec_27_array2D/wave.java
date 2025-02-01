@@ -1,4 +1,4 @@
-package Lec_9_Dec_27_array2D;
+package Lec_09_Dec_27_array2D;
 import java.util.Scanner;
 
 public class wave {

@@ -1,4 +1,4 @@
-package Lec_5_Dec_11_conditions;
+package Lec_05_Dec_11_conditions;
 import java.util.Scanner;
 
 public class grades {

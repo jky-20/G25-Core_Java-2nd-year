@@ -1,23 +1,24 @@
-package Lec_8_Dec_19_array;
+package Lec_07_Dec_18_functions_and_array;
 import java.util.Scanner;
 
-public class duplicate {
+public class array_sum {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int n = sc.nextInt();
 
         int[] arr = new int[n];
+
+        System.out.println(arr[1]);
+
         for(int i=0 ; i<arr.length ; i++){
             arr[i] = sc.nextInt();
         }
 
-        int sum_n = (n*(n+1))/2;
-        int sum_arr = 0;
-        for(int val : arr){
-            sum_arr += val;
+        // summ of array elements
+        int sum = 0;
+        for(int i=0; i<arr.length; i++){
+            sum += arr[i];
         }
 
-        int ans = sum_arr - sum_n;
-        System.out.println("Repeated element is : " + ans);
     }
 }

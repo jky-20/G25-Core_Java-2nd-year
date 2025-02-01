@@ -1,4 +1,4 @@
-package Lec_8_Dec_19_array;
+package Lec_08_Dec_19_array;
 import java.util.Scanner;
 
 public class diplicates {

@@ -1,4 +1,4 @@
-package Lec_7_Dec_18_functions_and_array;
+package Lec_07_Dec_18_functions_and_array;
 public class functions {
     public static void main(String[] args) {
         int a = 10;
