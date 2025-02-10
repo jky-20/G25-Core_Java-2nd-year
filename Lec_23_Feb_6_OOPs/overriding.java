@@ -19,6 +19,12 @@ class motor_vehicle{
     final void final_func(){
         System.out.println("final function");
     }
+    protected void protected_func(){
+        System.out.println("protected function");
+    }
+    void defualt_func(){
+        System.out.println("default function");
+    }
 }
 class car extends motor_vehicle{
     void start(){
@@ -32,6 +38,14 @@ class car extends motor_vehicle{
     // }
     car get_vehicle(){
         return new car();
+    }
+    
+    // scope of overrided method
+    public void protected_func(){       // public / protected
+        System.out.println("protected function");
+    }
+    protected void defualt_func(){      // public / protected / default
+        System.out.println("default function");
     }
 }
 class bike extends motor_vehicle{
