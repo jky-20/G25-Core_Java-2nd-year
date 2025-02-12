@@ -13,7 +13,9 @@ class Car extends MotorVehicle{
         System.out.println("Starts from Key");
     }
 }
-
+abstract class Tata extends Car{    // abstract class can inherit non-abstract class
+    abstract void function();
+}
 abstract class Bike extends MotorVehicle{
     // if not provided the implementation of abstract method then class should also be abstract
 }
